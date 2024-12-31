@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body class="bgcolr">
+    <div class="container-fluid">
+        <div class="row py-4 align-items-center">
+            <div class="col-md-1"></div>
+            <div class="col-md-2 ">
+               <a href="index.html"> <img src="freshcart-logo.svg"></a>
+            </div>
+            <div class="col-md-3">
+                <div class="searchbar">
+                    <input type="text" placeholder="search for product">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="col-md-2 p-0">
+                <button class="loc">
+                    <i class="start fa-solid  fa-location-dot me-3 "></i>
+                    location
+                </button>
+                <!-- <button class="loc1">
+                    location
+                </button>
+                <button class="loc1">
+                    location
+                </button> -->
+            </div>
+            <div class="col-md-3 text-center">
+                <!-- <a class="a1" href="#"><i class="fa-regular fa-heart  me-4"></i></a> -->
+                <a class="a1" href="signup.html">Registration</a>
+                <a class="a1" href="signin.html">Login</a>
+                <!-- <a class="a1" href="#"><i class="fa-regular fa-user me-4"></i></a> -->
+                <a class="a1" href="#"><i class="fa-solid fa-cart-shopping "></i></a>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+    <div class="container-fluid ">
+        <div class="row  ">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md">
+                        <div class="dropdown mt-1 ">
+                            <button class="btn btn-secondary dropdown-toggle w-200px  bg-success" type="button"
+                                id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                All Departments
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item text-muted" href="#">Dairy,breadds &eggs</a></li>
+                                <li><a class="dropdown-item text-muted" href="#">Snacks & munchies</a></li>
+                                <li><a class="dropdown-item text-muted" href="#">Fruits & vegetables</a></li>
+                                <li><a class="dropdown-item text-muted" href="#">Cold drinks & juices</a></li>
+                                <li><a class="dropdown-item text-muted" href="#">Breakfast & instant foods</a></li>
+                                <li><a class="dropdown-item text-muted" href="#">Bakery & biscuits</a></li>
+                                <li><a class="dropdown-item text-muted" href="#">Chicken, meats & fish</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md ">
+                        <div class="dropdown mt-2">
+                            <p class="dropdown-toggle w-200px " type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Home
+                            </p>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item text-muted" href="#">Home 1 </a></li>
+                                <li><a class="dropdown-item text-muted" href="#">Home 2</a></li>
+                                <li><a class="dropdown-item text-muted" href="#">Home 3</a></li>
+                                <li><a class="dropdown-item text-muted" href="#">Home 4</a></li>
+                                <li><a class="dropdown-item text-muted" href="#">Home 5</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md  ">
+                        <div class="dropdown mt-2">
+                            <p class="dropdown-toggle w-200px" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Shop
+                            </p>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item text-muted" href="#">Shop grid-filter </a></li>
+                                <li><a class="dropdown-item text-muted" href="#">Shop grid-3column</a></li>
+                                <li><a class="dropdown-item text-muted" href="#">Shop list filter</a></li>
+                                <li><a class="dropdown-item text-muted" href="#">Shop wide</a></li>
+                                <li><a class="dropdown-item text-muted" href="#">Shop single</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md ">
+                        <div class="dropdown mt-2">
+                            <p class="dropdown-toggle w-200px" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Stores
+                            </p>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item text-muted" href="#">Store list </a></li>
+                                <li><a class="dropdown-item text-muted" href="#">Store grid</a></li>
+                                <li><a class="dropdown-item text-muted" href="#"> Store single</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md  ">
+                        <div class="dropdown mt-2">
+                            <p class="dropdown-toggle w-200px" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Mega menu
+                            </p>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item text-muted" href="#">Store list </a></li>
+                                <li><a class="dropdown-item text-muted" href="#">Store grid</a></li>
+                                <li><a class="dropdown-item text-muted" href="#"> Store single</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md ">
+                        <div class="dropdown mt-2">
+                            <p class="dropdown-toggle w-200px " type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </p>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item text-muted" href="#">Blog</a></li>
+                                <li><a class="dropdown-item text-muted" href="#">Blog single</a></li>
+                                <li><a class="dropdown-item text-muted" href="#">Blog category</a></li>
+                                <li><a class="dropdown-item text-muted" href="#">About</a></li>
+                                <li><a class="dropdown-item text-muted" href="#">404 Error</a></li>
+                                <li><a class="dropdown-item text-muted" href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md ">
+                        <div class="dropdown mt-2">
+                            <p class="dropdown-toggle w-200px" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Account
+                            </p>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item text-muted" href="#">Sign in </a></li>
+                                <li><a class="dropdown-item text-muted" href="#">Sign up</a></li>
+                                <li><a class="dropdown-item text-muted" href="#"> Forgot password</a></li>
+                                <li><a class="dropdown-item text-muted" href="#">My Account</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md ">
+                        <div class="dropdown mt-2">
+                            <p class="dropdown-toggle w-200px" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dashboard
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md ">
+                        <div class="dropdown mt-2">
+                            <p class="dropdown-toggle w-200px" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Docs
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+        <hr>
+        <section class="mt-8">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10 mt-4">
+                        <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                            </div>
+                            <div class="carousel-inner ">
+                                <div class="carousel-item active">
+                                    <img src="stockphoto-139496979-2048x2048.jpg" height="500px" class="w-100  "
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="premium_photo-1686878940830-9031355ec98c.avif" height="500px"
+                                        class="w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+            </div>
+        </section>
+        <div class="container-fluid">
+            <div class="row mt-5">
+                <div class="col-md-1"></div>
+                <div class="col-md-11">
+                    <h4> Featured categories</h4>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-5">
+            <div class="row ">
+                <div class="col-md-1"></div>
+                <div class="  col-md  b2">
+                    <img src="premium_photo-1686878940830-9031355ec98c.avif " style="height: 80px; width: 70px;">
+                    <p class="b3"> Vegetables</p>
+                </div>
+                <div class="col-md b2">
+                    <img src="istockphoto-1157106624-612x612.webp" style="height: 80px; width: 70px;">
+                    <p class="b3"> Breads & Snacks</p>
+                </div>
+                <div class="col-md b2">
+                    <img src="istock-1805522284-2048x2048.jpg" style="height: 80px; width: 70px;">
+                    <p class="b3"> Instant food</p>
+                </div>
+                <div class="col-md b2">
+                    <img src="istockphoto-1456885441-612x612.webp" style="height: 80px; width: 70px;">
+                    <p class="b3"> Biscuits</p>
+                </div>
+                <div class="col-md b2">
+                    <img src="stockphoto-139496979-2048x2048.jpg" style="height: 80px; width: 70px;">
+                    <p class="b3"> Atta</p>
+                </div>
+                <div class="col-md b2">
+                    <img src="grab.avif" style="height: 80px; width: 70px;">
+                    <p class="b3">Rice & Dal</p>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md mt-5">
+                    <div class="card bg-dark text-white">
+                        <img src="istockphoto-1157106624-612x612.webp" class="card-img" alt="..."
+                            style="height: 200px;">
+                        <div class="card-img-overlay b-10">
+                            <h5 class="card-title mt-1  ">Fruits & Vegetables</h5>
+                            <p class="card-text mt-1 ">Get up to 30% off</p>
+                            <button class="  card-text  mt-2 " style="background-color:black; color: white;">Shop
+                                now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md mt-5">
+                    <div class="card bg-dark text-white">
+                        <img src="istockphoto3333333333.webp" class="card-img" alt="..."
+                            style="height: 200px;">
+                        <div class="card-img-overlay b-10">
+                            <h5 class="card-title mt-1  ">Fruits & Vegetables</h5>
+                            <p class="card-text mt-1 ">Get up to 30% off</p>
+                            <button class="card-text  mt-2 " style="background-color:black; color: white;">Shop
+                                now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+        <div class="container-fluid  mt-5">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <h4> Popular Products</h4>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+        <div class="container-fluid mt-3 e3">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-2">
+                    <div class="card" style="width: 180px;">
+                        <img src="istock-1805522284-2048x2048.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">snacks & munchies</h5>
+                            <p class=" b12 card-text"><i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </p>
+                            <div class="btnb">
+                                <button class="f20  card-text  mt-2 " style="background-color:black; color: white;">Shop
+                                    now</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card" style="width: 180px;">
+                        <img src="istock-1805522284-2048x2048.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">snacks & munchies</h5>
+                            <p class=" b12 card-text"><i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </p>
+                            <div class="btnb">
+                            <button class="f20  card-text  mt-2 " style="background-color:black; color: white;">Shop
+                                now</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card" style="width: 180px;">
+                        <img src="istock-1805522284-2048x2048.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">snacks & munchies</h5>
+                            <p class=" b12 card-text"><i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </p>
+                            <div class="btnb">
+                                <button class="f20  card-text  mt-2 " style="background-color:black; color: white;">Shop
+                                    now</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card" style="width: 180px;">
+                        <img src="istock-1805522284-2048x2048.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">snacks & munchies</h5>
+                            <p class=" b12 card-text"><i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </p>
+                            <div class="btnb">
+                                <button class="f20  card-text  mt-2 " style="background-color:black; color: white;">Shop
+                                    now</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card" style="width: 180px;">
+                        <img src="istock-1805522284-2048x2048.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">snacks & munchies</h5>
+                            <p class=" b12 card-text"><i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </p>
+                            <div class="btnb">
+                                <button class="f20  card-text  mt-2 " style="background-color:black; color: white;">Shop
+                                    now</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+        <div class="container-fluid" style="margin-top: 70px; margin-bottom: 60px;">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <div class="row">
+                        <div class="col-md-3 e1">
+                            <i class="fa-regular fa-clock  timed"></i>
+                            <h6 class="b21">10 minute grocery now</h6>
+                            <p class="s25">Get your order delivered to your doorstep at the earliest from FreshCart
+                                pickup
+                                stores near you</p>
+                        </div>
+                        <div class="col-md-3 e1">
+                            <i class="fa-solid fa-gift"></i>
+                            <h6 class="b21">10 minute grocery now</h6>
+                            <p class="s25">Get your order delivered to your doorstep at the earliest from FreshCart
+                                pickup
+                                stores near you</p>
+                        </div>
+                        <div class="col-md-3 e1">
+                            <i class="fa-solid fa-cube"></i>
+                            <h6 class="b21">10 minute grocery now</h6>
+                            <p class="s25">Get your order delivered to your doorstep at the earliest from FreshCart
+                                pickup
+                                stores near you</p>
+                        </div>
+                        <div class="col-md-3 e1">
+                            <i class="fa-solid fa-rotate"></i>
+                            <h6 class="b21">10 minute grocery now</h6>
+                            <p class="s25">Get your order delivered to your doorstep at the earliest from FreshCart
+                                pickup
+                                stores near you</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+        <ul class="colorlib-bubbles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <footer>
+            <div class="container-fluid d5">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <div class="row">
+                            <div class="col-md-2 gg">
+                                <!-- <h6 class="mb-3 mt-5 categ1"> Categories</h6>
+                                <p class="mb-2  text-muted">Vegetables & Fruits</p>
+                                <p class="mb-2 d6 text-muted"> Breakfast & instant food</p>
+                                <p class="mb-2 d6 text-muted">Bakery & Biscuits</p>
+                                <p class="mb-2 d6 text-muted"> Atta, rice & dal</p>
+                                <p class="mb-2 d6 text-muted">Sauces & spreads</p>
+                                <p class="mb-2 d6 text-muted"> Organic & gourmet</p>
+                                <p class="mb-2 d6 text-muted">Baby care</p>
+                                <p class="mb-2 d6 text-muted">Cleaning essentials</p>
+                                <p class="mb-2 d6 text-muted">Personal care</p> -->
+                                <ul>
+                                    <h6 class="mb-3 mt-5 categ1"> Categories</h6>
+                                    <li class="li1  mb-2">Vegitables & Fruits</li>
+                                    <li class="li1  mb-2">Breakfast & instant food</li>
+                                    <li class="li1  mb-2">Bakery & Biscuits</li>
+                                    <li class="li1  mb-2">Atta, rice & dal</li>
+                                    <li class="li1  mb-2">Sauces & spreads</li>
+                                    <li class="li1  mb-2">Organic & gourmet</li>
+                                    <li class="li1  mb-2">Baby care</li>
+                                    <li class="li1  mb-2">Cleaning essentials</li>
+                                    <li class="li1  mb-2">Personal care</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-2 e2">
+                                <!-- <p class="mb-2 d6 text-muted">Vegetables & Fruits</p>
+                                <p class="mb-2 d6 text-muted"> Breakfast & instant food</p>
+                                <p class="mb-2 d6 text-muted">Bakery & Biscuits</p>
+                                <p class="mb-2 d6 text-muted"> Atta, rice & dal</p>
+                                <p class="mb-2 d6 text-muted">Sauces & spreads</p>
+                                <p class="mb-2 d6 text-muted"> Organic & gourmet</p>
+                                <p class="mb-2 d6 text-muted">Baby care</p>
+                                <p class="mb-2 d6 text-muted">Cleaning essentials</p>
+                                <p class="mb-2 d6 text-muted">Personal care</p> -->
+                                <ul>
+                                    <h6 class="mb-3 mt-5 categ1"> Categories</h6>
+                                    <li class="li1  mb-2">Vegitables & Fruits</li>
+                                    <li class="li1  mb-2">Breakfast & instant food</li>
+                                    <li class="li1  mb-2">Bakery & Biscuits</li>
+                                    <li class="li1  mb-2">Atta, rice & dal</li>
+                                    <li class="li1  mb-2">Sauces & spreads</li>
+                                    <li class="li1  mb-2">Organic & gourmet</li>
+                                    <li class="li1  mb-2">Baby care</li>
+                                    <li class="li1  mb-2">Cleaning essentials</li>
+                                    <li class="li1  mb-2">Personal care</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-2">
+                                <!-- <h6 class="mb-3 mt-5"> Categories</h6>
+                                <p class="mb-2 d6 text-muted">Vegetables & Fruits</p>
+                                <p class="mb-2 d6 text-muted"> Breakfast & instant food</p>
+                                <p class="mb-2 d6 text-muted">Bakery & Biscuits</p>
+                                <p class="mb-2 d6 text-muted"> Atta, rice & dal</p>
+                                <p class="mb-2 d6 text-muted">Sauces & spreads</p>
+                                <p class="mb-2 d6 text-muted"> Organic & gourmet</p>
+                                <p class="mb-2 d6 text-muted">Baby care</p>
+                                <p class="mb-2 d6 text-muted">Cleaning essentials</p>
+                                <p class="mb-2 d6 text-muted">Personal care</p> -->
+                                <ul>
+                                    <h6 class="mb-3 mt-5 categ1"> Categories</h6>
+                                    <li class="li1  mb-2">Vegitables & Fruits</li>
+                                    <li class="li1  mb-2">Breakfast & instant food</li>
+                                    <li class="li1  mb-2">Bakery & Biscuits</li>
+                                    <li class="li1  mb-2">Atta, rice & dal</li>
+                                    <li class="li1  mb-2">Sauces & spreads</li>
+                                    <li class="li1  mb-2">Organic & gourmet</li>
+                                    <li class="li1  mb-2">Baby care</li>
+                                    <li class="li1  mb-2">Cleaning essentials</li>
+                                    <li class="li1  mb-2">Personal care</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-2">
+                                <!-- <h6 class="mb-3 mt-5"> Categories</h6>
+                                <p class="mb-2 d6 text-muted">Vegetables & Fruits</p>
+                                <p class="mb-2 d6 text-muted"> Breakfast & instant food</p>
+                                <p class="mb-2 d6 text-muted">Bakery & Biscuits</p>
+                                <p class="mb-2 d6 text-muted"> Atta, rice & dal</p>
+                                <p class="mb-2 d6 text-muted">Sauces & spreads</p>
+                                <p class="mb-2 d6 text-muted"> Organic & gourmet</p>
+                                <p class="mb-2 d6 text-muted">Baby care</p>
+                                <p class="mb-2 d6 text-muted">Cleaning essentials</p>
+                                <p class="mb-2 d6 text-muted">Personal care</p> -->
+                                <ul>
+                                    <h6 class="mb-3 mt-5 categ1"> Categories</h6>
+                                    <li class="li1  mb-2">Vegitables & Fruits</li>
+                                    <li class="li1  mb-2">Breakfast & instant food</li>
+                                    <li class="li1  mb-2">Bakery & Biscuits</li>
+                                    <li class="li1  mb-2">Atta, rice & dal</li>
+                                    <li class="li1  mb-2">Sauces & spreads</li>
+                                    <li class="li1  mb-2">Organic & gourmet</li>
+                                    <li class="li1  mb-2">Baby care</li>
+                                    <li class="li1  mb-2">Cleaning essentials</li>
+                                    <li class="li1  mb-2">Personal care</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-2">
+                                <!-- <h6 class="mb-3 mt-5"> Categories</h6>
+                                <p class="mb-2 d6 text-muted">Vegetables & Fruits</p>
+                                <p class="mb-2 d6 text-muted"> Breakfast & instant food</p>
+                                <p class="mb-2 d6 text-muted">Bakery & Biscuits</p>
+                                <p class="mb-2 d6 text-muted"> Atta, rice & dal</p>
+                                <p class="mb-2 d6 text-muted">Sauces & spreads</p>
+                                <p class="mb-2 d6 text-muted"> Organic & gourmet</p>
+                                <p class="mb-2 d6 text-muted">Baby care</p>
+                                <p class="mb-2 d6 text-muted">Cleaning essentials</p>
+                                <p class="mb-2 d6 text-muted">Personal care</p> -->
+                                <ul>
+                                    <h6 class="mb-3 mt-5 categ1"> Categories</h6>
+                                    <li class="li1  mb-2">Vegitables & Fruits</li>
+                                    <li class="li1  mb-2">Breakfast & instant food</li>
+                                    <li class="li1  mb-2">Bakery & Biscuits</li>
+                                    <li class="li1  mb-2">Atta, rice & dal</li>
+                                    <li class="li1  mb-2">Sauces & spreads</li>
+                                    <li class="li1  mb-2">Organic & gourmet</li>
+                                    <li class="li1  mb-2">Baby care</li>
+                                    <li class="li1  mb-2">Cleaning essentials</li>
+                                    <li class="li1  mb-2">Personal care</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-2">
+                                <!-- <h6 class="mb-3 mt-5"> Categories</h6>
+                                <p class="mb-2 d6 text-muted">Vegetables & Fruits</p>
+                                <p class="mb-2 d6 text-muted"> Breakfast & instant food</p>
+                                <p class="mb-2 d6 text-muted">Bakery & Biscuits</p>
+                                <p class="mb-2 d6 text-muted"> Atta, rice & dal</p>
+                                <p class="mb-2 d6 text-muted">Sauces & spreads</p>
+                                <p class="mb-2 d6 text-muted"> Organic & gourmet</p>
+                                <p class="mb-2 d6 text-muted">Baby care</p>
+                                <p class="mb-2 d6 text-muted">Cleaning essentials</p>
+                                <p class="mb-2 d6 text-muted">Personal care</p> -->
+                                <ul>
+                                    <h6 class="mb-3 mt-5 categ1"> Categories</h6>
+                                    <li class="li1  mb-2">Vegitables & Fruits</li>
+                                    <li class="li1  mb-2">Breakfast & instant food</li>
+                                    <li class="li1  mb-2">Bakery & Biscuits</li>
+                                    <li class="li1  mb-2">Atta, rice & dal</li>
+                                    <li class="li1  mb-2">Sauces & spreads</li>
+                                    <li class="li1  mb-2">Organic & gourmet</li>
+                                    <li class="li1  mb-2">Baby care</li>
+                                    <li class="li1  mb-2">Cleaning essentials</li>
+                                    <li class="li1  mb-2">Personal care</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="container-fluid d5">
+                        <div class="row ">
+                            <div class="col-md-1"></div>
+                            <div class="col-md-10">
+                                <hr class="mt-3">
+                                <div class="row ">
+                                    <div class="col-md-6 foot1">
+                                        <span class="e5"> Payment Partner</span>
+                                        <img class="me-1" src="amazonpay.svg" alt="">
+                                        <img class="me-1" src="american-express.svg" alt="">
+                                        <img class="me-1" src="mastercard.svg" alt="">
+                                        <img class="me-1" src="paypal.svg" alt="">
+                                        <img class="me-1" src="visa.svg" alt="">
+                                    </div>
+                                    <div class="col-md-6 foot1">
+                                        <span class="e5">Get deliveries with FreshCart</span>
+                                        <img class="f18"  src="appstore-btn.svg" alt="">
+                                        <img class="f18"  src="googleplay-btn.svg" alt="">
+                                    </div>
+                                </div>
+                                <hr class="mt-3 mb-1">
+                            </div>
+                            <div class="col-md-1"></div>
+                        </div>
+                    </div>
+                    <div class="container-fluid f16">
+                        <div class="row">
+                            <div class="col-md-1"></div>
+                            <div class="col-md-5 ">
+                                <span class="f12 ">© 2022 - 2024 FreshCart eCommerce HTML Template. All rights
+                                    reserved. Powered by <span class="f13">Codescandy</span>.
+                                </span>
+                            </div>
+                            <div class="col-md-3"></div>
+                            <div class="col-md-2 f17"> <span class="f14 ">Follow us on</span>
+                                <i class="fa-brands fa-facebook f15"></i>
+                                <i class="fa-brands fa-twitter f15"></i>
+                                <i class="fa-brands fa-instagram f15"></i>
+                            </div>
+                            <div class="col-md-1"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+
+</html>
